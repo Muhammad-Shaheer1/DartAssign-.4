@@ -1,7 +1,7 @@
 //Create a list of strings and find the longest common subsequence (substring) among all the strings in the list.
 
 void main() {
-  List<String> strings = ["abcdefg", "abdefg", "abcefg", "abceg"];
+  List<String> strings = ["shaheer", "shheer", "shaeer", "shaer"];
 
   String lcs = longestCommonSubsequence(strings);
   print("Longest Common Subsequence: $lcs");
